@@ -9,6 +9,8 @@
   <h1>Test Data</h1>
   <h3>Total names: {{names.length}}</h3>
   <ul>
-    <li ng-repeat="name in names">{{names.firstname}}</li>
+    <li ng-repeat="name in names">{{name.firstname}}</li>
   </ul>
+  <input ng-model='testBox'>
+  <p ng-bind='testBox'></p>
 </div>
